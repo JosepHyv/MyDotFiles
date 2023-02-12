@@ -1,5 +1,15 @@
 # list of all packages that i need for my daily workflow
 
+
+all packages can be installed fastly  using `install.sh` script (if you using arch linux based distros)
+you can execute 
+
+```bash
+wget -O- https://raw.githubusercontent.com/JosepHyv/MyDotFiles/main/packages/install.sh | bash
+
+```
+---
+
 ## pacman and Aur packages list
 | Name | Repo | Category | 
 | ---- | ---- | -------  |
@@ -43,6 +53,4 @@
 | telegram | flatpak | comunication | 
 
 ---
-
-all packages can be installed using `install.sh` script (if you using arch linux based distros)
 
