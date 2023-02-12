@@ -1,0 +1,29 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": 0,
+    "editor.wordWrap": "on",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "js"
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+    "eslint.probe": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "vue",
+        "markdown",
+        "php"
+    ],
+    "[php]": {
+        "editor.defaultFormatter": "valeryanm.vscode-phpsab"
+    },
+    "phpcbf.onsave": true,
+    "explorer.confirmDelete": false,
+    "telemetry.telemetryLevel": "off",
+}
