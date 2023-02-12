@@ -1,0 +1,23 @@
+[alias]
+	lg = log --graph --oneline --color
+	st = status -sbu
+	sts = status --show-stash
+	ba = branch -a
+	b = branch
+	ckn = checkout -b
+	ck = checkout
+	ckd = checkout -D
+	po = push origin
+	cb = branch --show-current
+	cln = clean -d -f 
+	clg = clean -d -n -X
+[user]
+	name = josephyv
+	email = josephynimoto@gmail.com
+[core]
+	editor = micro
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
