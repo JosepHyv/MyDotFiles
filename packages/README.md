@@ -30,6 +30,7 @@
 | mono | Extra | school | 
 | bottles | aur | school | 
 | staruml | aur | school | 
+| ungoogled-chromium | aur | browsing |
 
 
 # flatpak packages list
